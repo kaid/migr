@@ -1,0 +1,10 @@
+hash: 3441bf6ff6d443d7e65fcdfc4f1d1b67e506cee012ed3b4901bbe2aab9890aa9
+updated: 2016-11-22T09:35:26.718630075+08:00
+imports:
+- name: github.com/rubenv/sql-migrate
+  version: 6f4757563362064790a6687a6b60f182062c8634
+  subpackages:
+  - sqlparse
+- name: gopkg.in/gorp.v1
+  version: c87af80f3cc5036b55b83d77171e156791085e2e
+testImports: []
