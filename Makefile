@@ -7,10 +7,12 @@ BINDATAFLAGS = -pkg main -o $(BINDATA)
 
 default: build
 
+run: TARGET = migr-debug
 run: debug
 	./$(TARGET)
 
 debug: BINDATAFLAGS += -debug
+debug: TARGET = migr-debug
 debug: build
 
 build: $(TARGET)

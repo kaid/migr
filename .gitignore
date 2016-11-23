@@ -1,4 +1,5 @@
 migr
+migr-debug
 sqlfiles.go
 migrations/*
 .envrc
